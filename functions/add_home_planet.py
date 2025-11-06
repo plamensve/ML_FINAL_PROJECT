@@ -5,8 +5,6 @@ def add_home_planet(dataset):
     In this way, we avoid assigning a random home planet,
     relying instead on a hypothesis that will be tested in a later stage of the project development.
     """
-    dataset.loc[dataset['PassengerId'] == '2384_07', 'HomePlanet'] = 'Earth'
-    dataset.loc[dataset['PassengerId'] == '2384_07', 'Cabin'] = 'C/86/S'
     dataset.loc[dataset['PassengerId'] == '2404_04', 'HomePlanet'] = 'Europa'
     dataset.loc[dataset['PassengerId'] == '2505_01', 'HomePlanet'] = 'Earth'
     dataset.loc[dataset['PassengerId'] == '2506_01', 'HomePlanet'] = 'Europa'
