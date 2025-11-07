@@ -61,3 +61,61 @@ def add_home_planet(dataset):
     dataset.loc[dataset['PassengerId'] == '9194_01', 'HomePlanet'] = 'Europa'
 
     return dataset
+
+
+def add_home_planet_test_set(dataset):
+    dataset.loc[dataset['PassengerId'] == '1124_02', 'HomePlanet'] = 'Europa'
+    dataset.loc[dataset['PassengerId'] == '1184_02', 'HomePlanet'] = 'Europa'
+    dataset.loc[dataset['PassengerId'] == '1471_02', 'HomePlanet'] = 'Earth'
+    dataset.loc[dataset['PassengerId'] == '1502_01', 'HomePlanet'] = 'Europa'
+    dataset.loc[dataset['PassengerId'] == '1553_02', 'HomePlanet'] = 'Mars'
+
+    return dataset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
